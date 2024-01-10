@@ -1,0 +1,45 @@
+@media screen and (min-width: 1280px){
+
+}
+
+.body{
+  background-color:#2A2C2F;
+}
+
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.header__logo{
+  width:270px;
+  height:70px;
+  margin:auto;
+  flex-shrink:0;
+}
+
+.header__title{
+  width:793px;
+  height:200px;
+  top:194px;
+  left:243px;
+  font-family:'Inter';
+  font-weight:900px;
+  font-size:96px;
+  line-height:100px;
+  color:#ffffff;
+}
+
+.header__subtitle{
+  width:720px;
+  height:72px;
+  top:426px;
+  left:280px;
+  font:'inter';
+  font-weight:400px;
+  font-size:30px;
+  line-height:36px;
+  align-items:center;
+  color:#FFFFFF;
+}
