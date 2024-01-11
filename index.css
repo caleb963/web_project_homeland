@@ -1,1 +1,130 @@
 @import url(./normalize.css);
+
+@media screen and (min-width: 1280px){
+
+}
+
+@font-face{
+  font-family:'Inter';
+  src:url(../Inter-4.0/web/InterDisplay-Regular.woff2) format('woff2');
+  font-weight:normal;
+  font-style:normal;
+}
+
+.body{
+  background-color:#2A2C2F;
+}
+
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.header__logo{
+  width:270px;
+  height:70px;
+  margin:auto;
+  flex-shrink:0;
+}
+
+.header__title{
+  width:793px;
+  height:200px;
+  top:194px;
+  left:243px;
+  right:244px;
+  font-family:'Inter';
+  font-weight:900px;
+  font-size:96px;
+  line-height:100px;
+  color:#ffffff;
+  display:flex;
+  align-items:center;
+
+}
+
+.header__subtitle{
+  width:720px;
+  height:72px;
+  top:34px;
+  left:280px;
+  font-family:'inter';
+  font-weight:400px;
+  font-size:30px;
+  line-height:36px;
+  align-items:center;
+  color:#FFFFFF;
+}
+
+.header__initial_image{
+  width:984px;
+  height:615px;
+  top:562px;
+  left:148px;
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+main__section_intro{
+  width:1017px;
+  height:516px;
+  top:92px;
+  left:148px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.main__section_intro-title{
+  width:1017px;
+  height:116px;
+  top:1269px;
+  margin-left:148px;
+  margin-right:115px;
+  font-family:'Inter';
+  font-weight:900px;
+  font-size:54px;
+  line-height:58px;
+  color:#FFFFFF;
+}
+
+.main__section_intro-blockquote{
+  width:722px;
+  height:136px;
+  top:40px;
+  margin-left:148px;
+  margin-right:410px;
+  font-family:'Inter';
+  font-weight:400px;
+  font-size:24px;
+  line-height:34px;
+  color:#FFFFFF;
+}
+
+.main__section_intro-cite{
+  font-family:'Inter';
+  font-weight:400px;
+  font-size:24px;
+  line-height:34px;
+  color:#FFFFFF;
+  margin-left:24px;
+}
+
+.main__section_intro-paragraph{
+  width:720px;
+  height:182px;
+  top:42px;
+  margin-left:148px;
+  margin-right:412px;
+  font-family:'Inter';
+  font-weight:400px;
+  font-size:16px;
+  line-height:26.08px;
+  color:#FFFFFF;
+}
+
