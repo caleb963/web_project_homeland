@@ -152,31 +152,38 @@
 .places__kiev{
   width:984px;
   height:756px;
-  margin-left:148px;
-  margin-right:148px;
-  padding-top:92px;
+  margin-top:92px;
   display:grid;
   grid-template-columns:repeat(2,1fr);
   grid-template-rows:repeat(3,1fr);
+  grid-gap: 10px;
+  border:#0278FE 1px solid;
+}
+
 
 
 .places__kiev-title{
   width:460px;
   height:152px;
-  margin-top:92px;
-  margin-left:148px;
-  margin-right:40px;
   font-family:'Inter';
   font-weight:900px;
   font-size:72px;
   line-height:76px;
   color:#FFFFFF;
-}
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin:auto;
 }
 
 .places__kiev-image{
   width:460px;
   height:460px;
+  grid-column-start:-2;
+  grid-column-end:-3;
+  grid-row-start:-2;
+  grid-row-end:-3;
 }
 
 .places__kiev-artist{
@@ -187,6 +194,11 @@
   font-weight:400px;
   font-size:18px;
   line-height:22px;
+  grid-column-start:-1;
+  grid-column-end:-2;
+  grid-row-start:1;
+  grid-row-end:2;
+  margin:auto;
 }
 
 .places__kiev-artist-title{
@@ -198,7 +210,7 @@ line-height:14.52px;
 letter-spacing: 12%;
 }
 
-.places__kiev-paragrah1{
+.places__kiev-paragraph1{
   width:484px;
   height:203px;
   font-family:'Inter';
@@ -206,6 +218,11 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:29.34px;
   color:#FFFFFF;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:-2;
+  grid-row-end:-3;
+  margin:auto;
 }
 
 .places__kiev-paragraph2{
@@ -216,15 +233,21 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:29.34px;
   color:#FFFFFF;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: auto;
 }
+
 
 .places__kiev-button{
   width:355px;
   height:48px;
-  border-radius:4px;
-  padding:13px 20px 13px 20px;
   background-color:#0278FE;
   color:#FFFFFF;
-
-
+  font-family: 'Inter';
+  font-weight:600px;
+  font-size:18px;
+  line-height:22px;
 }
