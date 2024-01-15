@@ -249,7 +249,6 @@ letter-spacing: 12%;
 }
 
 .places__criccieth{
-  margin-top:80px;
   width:984px;
   height:756px;
   margin-left:148px;
@@ -347,7 +346,6 @@ letter-spacing: 12%;
 }
 
 .places__berea{
-  margin-top:80px;
   width:984px;
   height:725px;
   margin-left:148px;
@@ -445,7 +443,6 @@ letter-spacing: 12%;
 }
 
 .places__muramvya{
-  margin-top:80px;
   width:984px;
   height:859px;
   margin-left:148px;
@@ -552,4 +549,101 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:21.78px;
   grid-area:muramvya-button;
+}
+
+.places__tijuana{
+  width:984px;
+  height:756px;
+  margin-left:148px;
+  margin-right:148px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(4,1fr);
+  grid-gap:10px;
+  border:#0278FE 1px solid;
+  grid-template-areas:
+  "tijuana-title tijuana-artist"
+  "tijuana-image tijuana-paragraph1"
+  "tijuana-image tijuana-paragraph2"
+  "tijuana-button .";
+}
+
+.places__tijuana-title{
+  width:485px;
+  height:152px;
+  margin:auto;
+  font-family:'Inter';
+  font-weight:900;
+  font-size:72px;
+  line-height:76px;
+  color:#FFFFFF;
+  grid-area:tijuana-title;
+}
+
+.places__tijuana-artist{
+  width:456px;
+  height:22px;
+  margin:auto;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:18px;
+  line-height:22px;
+  color:#FFFFFF;
+  grid-area:tijuana-artist;
+}
+
+.places__tijuana-artist-title{
+  width:58px;
+  height:15px;
+  margin:auto;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:12px;
+  line-height:14.52px;
+  letter-spacing:12%;
+  color:#AAAAAA;
+}
+
+.places__tijuana-image{
+  width:460px;
+  height:460px;
+  grid-area:tijuana-image;
+}
+
+.places__tijuana-paragraph1{
+  width:484px;
+  height:200px;
+  margin:auto;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:18px;
+  line-height:29.34px;
+  color:#FFFFFF;
+  grid-area:tijuana-paragraph1;
+}
+
+.places__tijuana-paragraph2{
+  width:484px;
+  height:120px;
+  margin:auto;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:18px;
+  line-height:29.34px;
+  color:#FFFFFF;
+  grid-area:tijuana-paragraph2;
+}
+
+.places__tijuana-button{
+  width:355px;
+  height:48px;
+  margin:auto;
+  border-radius:4px;
+  background-color:#0278FE;
+  color:#FFFFFF;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  grid-area:tijuana-button;
 }
