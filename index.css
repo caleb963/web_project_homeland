@@ -158,7 +158,6 @@
   margin-left:148px;
   margin-right:148px;
   grid-gap: 10px;
-  border:#0278FE 1px solid;
   grid-template-areas:
   "kiev-title kiev-artist"
   "kiev-image kiev-paragraph1"
@@ -257,7 +256,6 @@ letter-spacing: 12%;
   grid-template-columns:repeat(2, 1fr);
   grid-template-rows:repeat(4, 1fr);
   grid-gap:10px;
-  border:#0278FE 1px solid;
   grid-template-areas:
   "criccieth-title criccieth-artist"
   "criccieth-image criccieth-paragraph1"
@@ -354,7 +352,6 @@ letter-spacing: 12%;
   grid-template-columns:repeat(2, 1fr);
   grid-template-rows:repeat(4, 1fr);
   grid-gap:10px;
-  border:#0278FE 1px solid;
   grid-template-areas:
   "berea-title berea-artist"
   "berea-image berea-paragraph1"
@@ -451,7 +448,6 @@ letter-spacing: 12%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows:repeat(4, 1fr);
   grid-gap:10px;
-  border:#0278FE 1px solid;
   grid-template-areas:
   "muramvya-title muramvya-artist"
   "muramvya-image muramvya-paragraph1"
@@ -560,7 +556,6 @@ letter-spacing: 12%;
   grid-template-columns:repeat(2,1fr);
   grid-template-rows:repeat(4,1fr);
   grid-gap:10px;
-  border:#0278FE 1px solid;
   grid-template-areas:
   "tijuana-title tijuana-artist"
   "tijuana-image tijuana-paragraph1"
@@ -647,3 +642,74 @@ letter-spacing: 12%;
   line-height:21.78px;
   grid-area:tijuana-button;
 }
+
+.cover{
+width:1184px;
+height:740px;
+margin-top:105px;
+margin-left:48px;
+margin-right:48px;
+display:flex;
+flex-direction:column;
+align-items:center;
+background-image:url(./images/__background_cover.svg);
+}
+
+.cover__title{
+  width:656px;
+  height:76px;
+  margin-left:300px;
+  margin-top:243px;
+  margin-bottom:32px;
+  font-family:'Inter';
+  font-weight:900;
+  font-size:72px;
+  line-height:76px;
+  color:#FFFFFF;
+}
+
+.cover__subtitle{
+  height:66px;
+  margin-left:452px;
+  margin-right:452px;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:18px;
+  line-height:22px;
+  color:#FFFFFF;
+}
+
+.cover__button{
+  width:198px;
+  height:48px;
+  margin-top:45px;
+  margin-right:75px;
+  border-radius:4px;
+  background-color:#0278FE;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  color:#FFFFFF;
+
+}
+
+.footer{
+  width:1280px;
+  height:132px;
+}
+
+.footer__copyright{
+  margin-top:92px;
+  margin-bottom:24px;
+  margin-left:531px;
+  width:191px;
+  height:16px;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:12px;
+  line-height:16px;
+  color:#FFFFFF;
+}
+
+
