@@ -1,0 +1,17 @@
+.footer{
+  width:1280px;
+  height:132px;
+}
+
+.footer__copyright{
+  margin-top:92px;
+  margin-bottom:24px;
+  margin-left:531px;
+  width:191px;
+  height:16px;
+  font-family:'Inter';
+  font-weight:400;
+  font-size:12px;
+  line-height:16px;
+  color:#FFFFFF;
+}

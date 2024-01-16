@@ -1,0 +1,50 @@
+.cover{
+  width:1184px;
+  height:740px;
+  margin-top:105px;
+  margin-left:48px;
+  margin-right:48px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-image:url(/images/__background_cover.svg);
+  }
+
+  .cover__title{
+    width:656px;
+    height:76px;
+    margin-left:300px;
+    margin-top:243px;
+    margin-bottom:32px;
+    font-family:'Inter';
+    font-weight:900;
+    font-size:72px;
+    line-height:76px;
+    color:#FFFFFF;
+  }
+
+  .cover__subtitle{
+    height:66px;
+    margin-left:452px;
+    margin-right:452px;
+    font-family:'Inter';
+    font-weight:400;
+    font-size:18px;
+    line-height:22px;
+    color:#FFFFFF;
+  }
+
+  .cover__button{
+    width:198px;
+    height:48px;
+    margin-top:45px;
+    margin-right:75px;
+    border-radius:4px;
+    background-color:#0278FE;
+    font-family:'Inter';
+    font-weight:600;
+    font-size:18px;
+    line-height:21.78px;
+    color:#FFFFFF;
+
+  }
