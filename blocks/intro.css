@@ -58,3 +58,34 @@
   color:#FFFFFF;
   margin-left:24px;
 }
+
+@media(max-width: 320px){
+  .intro__title{
+    width:288px;
+    height:175px;
+    font-size:32px;
+    line-height:35px;
+    align-items:center;
+    margin-right:1100px;
+    }
+
+    .intro__blockquote{
+      width:288px;
+      height:300px;
+      font-size:24px;
+      line-height:30px;
+      align-items:center;
+      margin-right:1120px;
+    }
+
+
+   .intro__paragraph{
+    width:288px;
+    height:442px;
+    font-size:16px;
+    line-height:26px;
+    align-items:center;
+    margin-right:1120px;
+   }
+
+}

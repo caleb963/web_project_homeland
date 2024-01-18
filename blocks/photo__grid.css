@@ -15,3 +15,21 @@
   height:213px;
   flex-shrink:0;
 }
+
+@media (max-width: 320px){
+  .photo__grid{
+    margin-top:500px;
+    width:288px;
+    height:1812px;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows:repeat(8,1fr);
+    margin-left:16px;
+  }
+
+  .photo__grid-item{
+    width:288px;
+    height:216px;
+  }
+
+
+}
