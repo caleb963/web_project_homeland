@@ -10,6 +10,10 @@
   background-image:url(/images/__background_cover.svg);
   }
 
+  .cover:hover{
+    opacity:0.3;
+  }
+
   .cover__title{
     width:656px;
     height:76px;
@@ -46,5 +50,8 @@
     font-size:18px;
     line-height:21.78px;
     color:#FFFFFF;
+  }
 
+  .cover__button:hover{
+    background-color:#0256cc;
   }

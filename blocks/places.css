@@ -22,18 +22,18 @@
 
 .places__kiev-title{
   grid-area:kiev-title;
-  width:485px;
+  width:422px;
   height:152px;
   font-family:'Inter';
   font-weight:900;
   font-size:72px;
   line-height:76px;
   color:#FFFFFF;
-  margin:auto;
+  margin:initial;
 }
 
 .places__kiev-artist{
-  width:484px;
+  width:485px;
   height:45px;
   color:#FFFFFF;
   font-family:'Inter';
@@ -96,8 +96,12 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:22px;
   grid-area:kiev-button;
-  margin:auto;
+  margin-top:48px;
   border-radius:4px;
+}
+
+.places__kiev-button:hover{
+  background-color:#0256cc;
 }
 
 .places__criccieth{
@@ -129,7 +133,7 @@ letter-spacing: 12%;
 }
 
 .places__criccieth-artist{
-  width:456px;
+  width:485px;
   height:22px;
   margin:auto;
   font-family:'Inter';
@@ -185,7 +189,7 @@ letter-spacing: 12%;
 .places__criccieth-button{
   width:355px;
   height:48px;
-  margin:auto;
+  margin-top:48px;
   background-color:#0278FE;
   color:#FFFFFF;
   font-family:'Inter';
@@ -194,6 +198,10 @@ letter-spacing: 12%;
   line-height:21.78px;
   border-radius:4px;
   grid-area:criccieth-button;
+}
+
+.places__criccieth-button:hover{
+  background-color:#0256cc;
 }
 
 .places__berea{
@@ -225,7 +233,7 @@ letter-spacing: 12%;
 }
 
 .places__berea-artist{
-  width:456px;
+  width:485px;
   height:22px;
   margin:auto;
   font-family:'Inter';
@@ -281,7 +289,6 @@ letter-spacing: 12%;
 .places__berea-button{
   width:355px;
   height:48px;
-  margin:auto;
   border-radius:4px;
   background-color:#0278FE;
   color:#FFFFFF;
@@ -290,6 +297,10 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:21.78px;
   grid-area:berea-button;
+}
+
+.places__berea-button:hover{
+  background-color:#0256cc;
 }
 
 .places__muramvya{
@@ -311,7 +322,7 @@ letter-spacing: 12%;
 .places__muramvya-title{
   width:460px;
   height:152px;
-  margin:auto;
+  margin:initial;
   font-family:'Inter';
   font-weight:900;
   font-size:72px;
@@ -321,7 +332,7 @@ letter-spacing: 12%;
 }
 
 .places__muramvya-artist{
-  width:456px;
+  width:485px;
   height:22px;
   margin:auto;
   font-family:'Inter';
@@ -389,7 +400,6 @@ letter-spacing: 12%;
 .places__muramvya-button{
   width:355px;
   height:48px;
-  margin:auto;
   border-radius:4px;
   background-color:#0278FE;
   color:#FFFFFF;
@@ -398,6 +408,11 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:21.78px;
   grid-area:muramvya-button;
+  margin-top:96px;
+}
+
+.places__muramvya-button:hover{
+  background-color:#0256cc;
 }
 
 .places__tijuana{
@@ -429,7 +444,7 @@ letter-spacing: 12%;
 }
 
 .places__tijuana-artist{
-  width:456px;
+  width:485px;
   height:22px;
   margin:auto;
   font-family:'Inter';
@@ -485,7 +500,6 @@ letter-spacing: 12%;
 .places__tijuana-button{
   width:355px;
   height:48px;
-  margin:auto;
   border-radius:4px;
   background-color:#0278FE;
   color:#FFFFFF;
@@ -494,4 +508,9 @@ letter-spacing: 12%;
   font-size:18px;
   line-height:21.78px;
   grid-area:tijuana-button;
+  margin-top:48px;
+}
+
+.places__tijuana-button:hover{
+  background-color:#0256cc;
 }
