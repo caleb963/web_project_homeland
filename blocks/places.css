@@ -878,3 +878,239 @@ letter-spacing: 12%;
     margin-top:20px;
   }
 }
+
+@media(max-width:768px){
+
+  .places{
+    width:720px;
+    height:1169px;
+    margin-top:-350px;
+    margin-left:-113px;
+  }
+
+  .places__kiev{
+    width:720px;
+    height:600px;
+
+  }
+
+  .places__kiev-title{
+    width:340px;
+    height:46px;
+    font-size:42px;
+    line-height:46px;
+  }
+
+  .places__kiev-artist{
+    width:355px;
+    height:44px;
+    font-size:18px;
+    line-height:22px;
+  }
+
+  .places__kiev-artist-title{
+    width:58px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__kiev-image{
+    width:340px;
+    height:340px;
+  }
+
+  .places__kiev-paragraph1{
+    width:352px;
+    height:234px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__kiev-paragraph2{
+    width:352px;
+    height:260px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__kiev-button{
+    width:355px;
+    height:48px;
+    font-size:18px;
+    line-height:22px;
+    margin-top:-100px;
+  }
+
+  .places__criccieth{
+    width:720px;
+    height:632px;
+  }
+
+  .places__criccieth-title{
+    width:340px;
+    height:46px;
+    font-size:42px;
+    line-height: 46px;
+  }
+
+  .places__criccieth-artist{
+    width:352px;
+    height:62px;
+    font-size:18px;
+    line-height:22px;
+  }
+
+  .places__circcieth-artist-title{
+    width:67px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__criccieth-image{
+    width:340px;
+    height:340px;
+  }
+
+  .places__criccieth-paragraph1{
+    width:352px;
+    height:208px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__criccieth-paragraph2{
+    width:352px;
+    height:286px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__criccieth-button{
+    width:355px;
+    height:48px;
+    font-size:18px;
+    line-height:22px;
+    margin-top:-100px;
+  }
+
+  .places__berea{
+    width:720px;
+    height:634px;
+  }
+
+  .places__berea-title{
+    width:340px;
+    height:92px;
+    font-size:42px;
+    line-height:46px;
+  }
+
+  .places__berea-artist{
+    width:352px;
+    height:22px;
+    font-size:18px;
+    line-height:22px;
+  }
+
+  .places__berea-artist-title{
+    width:58px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%
+  }
+
+  .places__berea-image{
+    width:340px;
+    height:340px;
+  }
+
+  .places__bere-paragraph1{
+    width:352px;
+    height:312px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__berea-paragraph2{
+    width:352px;
+    height:208px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__berea-button{
+    width:355px;
+    height:48px;
+    font-size:18px;
+    line-height:22px;
+    margin-top:-100px;
+  }
+
+  .places__muramvya{
+    width:720px;
+    height:845px;
+  }
+
+  .places__muramvya-title{
+    width:340px;
+    height:92px;
+    font-size:42px;
+    line-height:46px;
+  }
+
+  .places__muramvya-artist{
+    width:352px;
+    height:22px;
+    font-size:18px;
+    line-height:22px;
+  }
+
+  .places__muramvya-artist-title{
+    width:58px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__muramvya-image{
+    width:340px;
+    height:340px;
+  }
+
+  .places__muramvya-paragraph1{
+    width:352px;
+    height:208px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__muramvya-paragraph2{
+    width:352px;
+    height:234px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__muramvya-paragraph3{
+    width:352px;
+    height:260px;
+    font-size:16px;
+    line-height:26px;
+  }
+
+  .places__muramvya-button{
+    width:355px;
+    height:48px;
+    font-size:18px;
+    line-height:22px;
+    margin-top:-100px;
+  }
+}
+
+
