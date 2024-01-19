@@ -55,3 +55,43 @@
   .cover__button:hover{
     background-color:#0256cc;
   }
+
+  @media(max-width: 320px){
+    .cover{
+      width:321px;
+      height:254px;
+      margin-top:4900px;
+      margin-left:-1px;
+    }
+
+    .cover__title{
+      width:288px;
+      height:35px;
+      margin-left:140px;
+      margin-top:16px;
+      margin-bottom:16px;
+      font-size:32px;
+      line-height:35px;
+      align-items:center;
+    }
+
+    .cover__subtitle{
+      width:280px;
+      height:48px;
+      margin-left:16px;
+      margin-right:16px;
+      font-size:14px;
+      line-height:16px;
+      align-items:center;
+
+    }
+
+    .cover__button{
+      width:198px;
+      height:48px;
+      margin-top:16px;
+      margin-right:16px;
+      font-size:18px;
+      line-height:22px;
+    }
+  }

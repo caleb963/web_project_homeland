@@ -565,7 +565,7 @@ letter-spacing: 12%;
   }
 
   .places__kiev-image{
-    width:300px;
+    width:285px;
     height:300px;
   }
 
@@ -614,6 +614,7 @@ letter-spacing: 12%;
     height:35px;
     font-size:32px;
     line-height:35px;
+    margin-top:50px;
   }
 
   .places__criccieth-artist{
@@ -621,7 +622,6 @@ letter-spacing: 12%;
     height:22px;
     font-size:18px;
     line-height:22px;
-    margin-bottom:10px;
   }
 
   .places__criccieth-artist-title{
@@ -633,7 +633,7 @@ letter-spacing: 12%;
   }
 
   .places__criccieth-image{
-    width:300px;
+    width:285px;
     height:300px;
   }
 
@@ -675,7 +675,7 @@ letter-spacing: 12%;
     "berea-image"
     "berea-paragraph1"
     "berea-paragraph2"
-    "berera-button";
+    "berea-button";
   }
 
   .places__berea-title{
@@ -683,6 +683,7 @@ letter-spacing: 12%;
     height:35px;
     font-size:32px;
     line-height:35px;
+    margin-bottom:40px;
   }
 
   .places__berea-artist{
@@ -702,7 +703,7 @@ letter-spacing: 12%;
   }
 
   .places__berea-image{
-    width:300px;
+    width:285px;
     height:300px;
   }
 
@@ -753,6 +754,7 @@ letter-spacing: 12%;
     height:70px;
     font-size:32px;
     line-height:35px;
+    margin-top:40px;
   }
 
   .places__muramvya-artist{
@@ -771,7 +773,7 @@ letter-spacing: 12%;
   }
 
   .places__muramvya-image{
-    width:300px;
+    width:285px;
     height:300px;
   }
 
@@ -848,7 +850,7 @@ letter-spacing: 12%;
   }
 
   .places__tijuana-image{
-    width:300px;
+    width:285px;
     height:300px;
   }
 
