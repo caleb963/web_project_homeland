@@ -1,26 +1,3 @@
-@media (max-width: 320px){
-  .places{
-    width:320px;
-    height:1169px;
-  }
-  .places__kiev{
-    width:320px;
-    height:1169px;
-    grid-template-columns:repeat(1,1fr);
-    grid-template-rows:repeat(5,1fr);
-    margin-left:16px;
-    margin-right:16px;
-    grid-gap:10px;
-    grid-template-areas:
-    "kiev-title"
-    "kiev-artist"
-    "kiev-image"
-    "kiev-paragraph1"
-    "kiev-paragraph2"
-    "kiev-button";
-  }
-}
-
 .places{
   padding-top:450px;
 }
@@ -536,4 +513,366 @@ letter-spacing: 12%;
 
 .places__tijuana-button:hover{
   background-color:#0256cc;
+}
+
+@media (max-width: 320px){
+  .places{
+    width:320px;
+    height:1169px;
+    margin-top:-350px;
+  }
+  .places__kiev{
+    width:320px;
+    height:1169px;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows:repeat(6,1fr);
+    margin-left:16px;
+    margin-right:16px;
+    grid-gap:10px;
+    grid-template-areas:
+    "kiev-title"
+    "kiev-artist"
+    "kiev-image"
+    "kiev-paragraph1"
+    "kiev-paragraph2"
+    "kiev-button";
+  }
+
+  .places__kiev-title{
+    width:288px;
+    height:35px;
+    font-size:32px;
+    line-height:35px;
+  }
+
+  .places__kiev-artist{
+   width:288px;
+   height:44px;
+   top:3552px;
+   left:16px;
+   font-size:18px;
+   line-height:22px;
+   margin:2px;
+   margin-bottom:10px;
+  }
+
+  .places__kiev-artist-title{
+    width:288px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__kiev-image{
+    width:300px;
+    height:300px;
+  }
+
+  .places__kiev-paragraph1{
+    width:288px;
+    height:286px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__kiev-paragraph2{
+    width:288px;
+    height:338px;
+    font-size:16px;
+    line-height:26.08px;
+    margin-right:30px;
+  }
+
+  .places__kiev-button{
+    width:288px;
+    height:45px;
+    font-size:14px;
+    line-height:17px;
+  }
+
+  .places__criccieth{
+    width:320px;
+    height:1209px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:repeat(6,1fr);
+    margin-left:16px;
+    margin-right:16px;
+    grid-gap:10px;
+    grid-template-areas:
+    "criccieth-title"
+    "criccieth-artist"
+    "criccieth-image"
+    "criccieth-paragraph1"
+    "criccieth-paragraph2"
+    "criccieth-button";
+  }
+
+  .places__criccieth-title{
+    width:288px;
+    height:35px;
+    font-size:32px;
+    line-height:35px;
+  }
+
+  .places__criccieth-artist{
+    width:288px;
+    height:22px;
+    font-size:18px;
+    line-height:22px;
+    margin-bottom:10px;
+  }
+
+  .places__criccieth-artist-title{
+   width:288px;
+   height:15px;
+   font-size:12px;
+   line-height:14px;
+   letter-spacing:12%;
+  }
+
+  .places__criccieth-image{
+    width:300px;
+    height:300px;
+  }
+
+  .places__criccieth-paragraph1{
+    width:288px;
+    height:260px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__criccieth-paragraph2{
+    width:288px;
+    height:364px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__criccieth-button{
+    width:288px;
+    height:45px;
+    font-size:14px;
+    line-height:17px;
+    margin-top:-20px;
+  }
+
+  .places__berea{
+    width:320px;
+    height:1186px;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows:repeat(6,1fr);
+    margin-left:16px;
+    margin-right:16px;
+    grid-gap:16px;
+    grid-template-areas:
+    "berea-title"
+    "berea-artist"
+    "berea-image"
+    "berea-paragraph1"
+    "berea-paragraph2"
+    "berera-button";
+  }
+
+  .places__berea-title{
+    width:288px;
+    height:35px;
+    font-size:32px;
+    line-height:35px;
+  }
+
+  .places__berea-artist{
+    width:288px;
+    height:22px;
+    font-size:18px;
+    line-height:22px;
+    margin-bottom:10px;
+  }
+
+  .places__berea-artist-title{
+    width:288px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__berea-image{
+    width:300px;
+    height:300px;
+  }
+
+  .places__berea-paragraph1{
+    width:288px;
+    height:390px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__berea-paragraph2{
+    width:288px;
+    height:260px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__berea-button{
+    width:288px;
+    height:45px;
+    font-size:14px;
+    line-height:17px;
+    margin-top:20px;
+  }
+
+  .places__muramvya{
+    width:320px;
+    height:1433px;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows:repeat(7,1fr);
+    margin-left:16px;
+    margin-right:16px;
+    grid-gap:16px;
+    grid-template-areas:
+    "muramvya-title"
+    "muramvya-artist"
+    "muramvya-image"
+    "muramvya-paragraph1"
+    "muramvya-paragraph2"
+    "muramvya-paragraph3"
+    "muramvya-button";
+  }
+
+  .places__muramvya-title{
+    width:288px;
+    height:70px;
+    font-size:32px;
+    line-height:35px;
+  }
+
+  .places__muramvya-artist{
+    width:288px;
+    height:44px;
+    font-size:18px;
+    line-height:22px;
+  }
+
+  .places__muramvya-artist-title{
+    width:288px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__muramvya-image{
+    width:300px;
+    height:300px;
+  }
+
+  .places__muramvya-paragraph1{
+    width:288px;
+    height:234px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__muramvya-paragraph2{
+    width:288px;
+    height:260px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__muramvya-paragraph3{
+    width:288px;
+    height:312px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__muramvya-button{
+    width:288px;
+    height:45px;
+    font-size:14px;
+    line-height:17px;
+    margin-top:20px;
+  }
+
+  .places__tijuana{
+    width:320px;
+    height:626px;
+    grid-template-columns:1,1fr;
+    grid-template-rows:6,1fr;
+    margin-left:16px;
+    margin-right:16px;
+    grid-gap:16px;
+    grid-template-areas:
+    "tijuana-title"
+    "tijuana-artist"
+    "tijuana-image"
+    "tijuana-paragraph1"
+    "tijuana-paragraph2"
+    "tijuana-button";
+  }
+
+  .places__tijuana-title{
+    width:288px;
+    height:35px;
+    font-size:32px;
+    line-height:35px;
+  }
+
+  .places__tijuana-artist{
+    width:288px;
+    height:22px;
+    font-size:18px;
+    line-height:22px;
+    margin-bottom:10px;
+  }
+
+  .places__tijuana-artist-title{
+    width:288px;
+    height:15px;
+    font-size:12px;
+    line-height:14px;
+    letter-spacing:12%;
+  }
+
+  .places__tijuana-image{
+    width:300px;
+    height:300px;
+  }
+
+  .places__tijuana-paragraph1{
+    width:288px;
+    height:280px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__tijuana-paragraph2{
+    width:288px;
+    height:200px;
+    font-size:16px;
+    line-height:26px;
+    margin-right:30px;
+  }
+
+  .places__tijuana-button{
+    width:288px;
+    height:45px;
+    font-size:14px;
+    line-height:17px;
+    margin-top:20px;
+  }
 }
