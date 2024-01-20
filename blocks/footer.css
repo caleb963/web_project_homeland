@@ -16,6 +16,20 @@
   color:#FFFFFF;
 }
 
+@media(max-with: 768px){
+  .footer{
+    width:768px;
+    height:128px;
+  }
+
+  .footer__copyright{
+    width:191px;
+    height:16px;
+    font-size:14px;
+    line-height:16px;
+  }
+}
+
 @media(max-width: 320px){
   .footer{
     width:191px;
