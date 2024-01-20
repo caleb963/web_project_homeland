@@ -1,22 +1,22 @@
-@import url(../normalize.css);
+@import url(./normalize.css);
 
-@import url(../blocks/body.css);
+@import url(./blocks/body.css);
 
-@import url(../blocks/lead.css);
+@import url(./blocks/lead.css);
 
-@import url(../blocks/intro.css);
+@import url(./blocks/intro.css);
 
-@import url(../blocks/photo__grid.css);
+@import url(./blocks/photo__grid.css);
 
-@import url(../blocks/places.css);
+@import url(./blocks/places.css);
 
-@import url(../blocks/cover.css);
+@import url(./blocks/cover.css);
 
-@import url(../blocks/footer.css);
+@import url(./blocks/footer.css);
 
 @font-face{
   font-family:'Inter';
-  src:url(../Inter-4.0/web/InterDisplay-Regular.woff2) format('woff2');
+  src:url(./Inter-4.0/web/InterDisplay-Regular.woff2) format('woff2');
   font-weight:normal;
-  font-style:normal;
+  font-style:normal
 }
