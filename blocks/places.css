@@ -813,6 +813,7 @@ letter-spacing: 12%;
     width:320px;
     height:1169px;
     margin-top:-350px;
+    margin-left:4px;
   }
   .places__kiev{
     width:320px;
@@ -883,6 +884,7 @@ letter-spacing: 12%;
     height:45px;
     font-size:14px;
     line-height:17px;
+    margin-top:auto;
   }
 
   .places__criccieth{
@@ -915,6 +917,7 @@ letter-spacing: 12%;
     height:22px;
     font-size:18px;
     line-height:22px;
+    margin-bottom:60px;
   }
 
   .places__criccieth-artist-title{
@@ -1100,6 +1103,7 @@ letter-spacing: 12%;
     font-size:14px;
     line-height:17px;
     margin-top:20px;
+    margin-bottom:80px;
   }
 
   .places__tijuana{
