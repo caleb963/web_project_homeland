@@ -1,5 +1,5 @@
 .cover{
-  width:1184px;
+  width:1244px;
   height:740px;
   margin-top:105px;
   margin-left:48px;
@@ -58,9 +58,10 @@
 
   @media(max-width: 768px){
     .cover{
-      width:726px;
+      width:763px;
       height:746px;
       margin-top:2200px;
+      margin-left:auto;
       display:flex;
       flex-direction:column;
       align-items:center;

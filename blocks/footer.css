@@ -16,7 +16,7 @@
   color:#FFFFFF;
 }
 
-@media(max-with: 768px){
+@media(max-width: 768px){
   .footer{
     width:768px;
     height:128px;
@@ -27,6 +27,7 @@
     height:16px;
     font-size:14px;
     line-height:16px;
+    margin-left:343px;
   }
 }
 
