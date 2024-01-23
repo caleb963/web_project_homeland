@@ -16,7 +16,8 @@
   flex-shrink:0;
 }
 
-@media (min-width: 768px){
+
+@media (max-width: 768px){
   .photo__grid{
     width:600px;
     height:850px;
@@ -32,6 +33,7 @@
     height:264px;
   }
 }
+
 
 @media (max-width: 320px){
   .photo__grid{

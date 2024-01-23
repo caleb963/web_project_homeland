@@ -1,5 +1,5 @@
 .cover{
-  width:1244px;
+  width:1184px;
   height:740px;
   margin-top:105px;
   margin-left:48px;
@@ -58,8 +58,8 @@
 
   @media(max-width: 768px){
     .cover{
-      width:763px;
-      height:746px;
+      width:768px;
+      height:740px;
       margin-top:2200px;
       margin-left:auto;
       display:flex;
@@ -91,7 +91,7 @@
 
   @media(max-width: 320px){
     .cover{
-      width:321px;
+      width:320px;
       height:254px;
       margin-top:4900px;
       margin-left:-1px;
@@ -126,5 +126,6 @@
       margin-right:16px;
       font-size:18px;
       line-height:22px;
+      margin-bottom:auto;
     }
   }
