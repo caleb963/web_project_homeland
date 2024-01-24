@@ -53,6 +53,10 @@ line-height:14.52px;
 letter-spacing: 12%;
 }
 
+.places__kiev-new-line{
+  display:block;
+}
+
 .places__kiev-image{
   width:460px;
   height:460px;
@@ -156,6 +160,10 @@ letter-spacing: 12%;
   letter-spacing: 12%;
 }
 
+.places__criccieth-new-line{
+  display:block;
+}
+
 .places__criccieth-image{
   width:460px;
   height:460px;
@@ -256,6 +264,10 @@ letter-spacing: 12%;
   color:#AAAAAA;
 }
 
+.places__berea-new-line{
+  display:block;
+}
+
 .places__berea-image{
   width:460px;
   height:460px;
@@ -353,6 +365,10 @@ letter-spacing: 12%;
   line-height:14.52px;
   letter-spacing:12%;
   color:#AAAAAA;
+}
+
+.places__muramvya-new-line{
+  display:block;
 }
 
 .places__muramvya-image{
@@ -465,6 +481,10 @@ letter-spacing: 12%;
   line-height:14.52px;
   letter-spacing:12%;
   color:#AAAAAA;
+}
+
+.places__tijuana-new-line{
+  display:block;
 }
 
 .places__tijuana-image{
