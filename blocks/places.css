@@ -15,8 +15,7 @@
   "kiev-title kiev-artist"
   "kiev-image kiev-paragraph1"
   "kiev-image kiev-paragraph2"
-  "kiev-button ."
-  ;
+  "kiev-button .";
 }
 
 
@@ -218,8 +217,7 @@ letter-spacing: 12%;
   "berea-title berea-artist"
   "berea-image berea-paragraph1"
   "berea-image berea-paragraph2"
-  "berea-button ."
-  ;
+  "berea-button .";
 }
 
 .places__berea-title{
@@ -318,8 +316,7 @@ letter-spacing: 12%;
   "muramvya-title muramvya-artist"
   "muramvya-image muramvya-paragraph1"
   "muramvya-image muramvya-paragraph2"
-  "muramvya-button muramvya-paragraph3"
-  ;
+  "muramvya-button muramvya-paragraph3";
 }
 
 .places__muramvya-title{
