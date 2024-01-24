@@ -36,7 +36,7 @@
 
 
 @media (max-width: 320px){
-  .grid{
+  .photo-grid{
     margin-top:500px;
     width:288px;
     height:1812px;
@@ -45,7 +45,7 @@
     margin-left:16px;
   }
 
-  .grid__item{
+  .photo-grid__item{
     width:288px;
     height:216px;
   }
