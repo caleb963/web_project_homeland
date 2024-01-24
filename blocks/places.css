@@ -16,6 +16,7 @@
   "kiev-image kiev-paragraph1"
   "kiev-image kiev-paragraph2"
   "kiev-button ."
+  ;
 }
 
 
@@ -218,6 +219,7 @@ letter-spacing: 12%;
   "berea-image berea-paragraph1"
   "berea-image berea-paragraph2"
   "berea-button ."
+  ;
 }
 
 .places__berea-title{
@@ -317,6 +319,7 @@ letter-spacing: 12%;
   "muramvya-image muramvya-paragraph1"
   "muramvya-image muramvya-paragraph2"
   "muramvya-button muramvya-paragraph3"
+  ;
 }
 
 .places__muramvya-title{
@@ -657,7 +660,7 @@ letter-spacing: 12%;
     height:15px;
     font-size:12px;
     line-height:14px;
-    letter-spacing:12%
+    letter-spacing:12%;
   }
 
   .places__berea-image{
