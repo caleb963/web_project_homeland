@@ -101,6 +101,7 @@ letter-spacing: 12%;
 
 .places__kiev-button:hover{
   background-color:#0256cc;
+  cursor:pointer;
 }
 
 .places__kiev-button-link{
@@ -209,6 +210,7 @@ letter-spacing: 12%;
 
 .places__criccieth-button:hover{
   background-color:#0256cc;
+  cursor:pointer;
 }
 
 .places__criccieth-button-link{
@@ -315,6 +317,7 @@ letter-spacing: 12%;
 
 .places__berea-button:hover{
   background-color:#0256cc;
+  cursor:pointer;
 }
 
 .places__berea-button-link{
@@ -435,6 +438,7 @@ letter-spacing: 12%;
 
 .places__muramvya-button:hover{
   background-color:#0256cc;
+  cursor:pointer;
 }
 
 .places__muramvya-button-link{
@@ -543,6 +547,7 @@ letter-spacing: 12%;
 
 .places__tijuana-button:hover{
   background-color:#0256cc;
+  cursor:pointer;
 }
 
 .places__tijuana-button-link{

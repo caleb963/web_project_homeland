@@ -7,11 +7,8 @@
   display:flex;
   flex-direction:column;
   align-items:center;
-  background-image:url(/images/__background_cover.png);
-  }
-
-  .cover:hover{
-    opacity:0.3;
+  justify-content:center;
+  position:relative;
   }
 
   .cover__title{
@@ -25,6 +22,7 @@
     font-size:72px;
     line-height:76px;
     color:#FFFFFF;
+    z-index:2;
   }
 
   .cover__subtitle{
@@ -36,6 +34,7 @@
     font-size:18px;
     line-height:22px;
     color:#FFFFFF;
+    z-index:2;
   }
 
   .cover__button{
@@ -45,10 +44,16 @@
     margin-right:75px;
     border-radius:4px;
     background-color:#0278FE;
+    z-index:2;
   }
 
   .cover__button:hover{
     background-color:#0256cc;
+    cursor:pointer;
+  }
+
+  .cover__button:hover + .cover__background-image{
+    opacity:0.3;
   }
 
   .cover__button-link{
@@ -60,6 +65,16 @@
     line-height:21.78px;
   }
 
+  .cover__background-image{
+    width:1184px;
+    height:740px;
+    position:absolute;
+  }
+
+  .cover__background-image:hover{
+    opacity:0.3;
+  }
+
   @media (max-width: 768px){
     .cover{
       width:768px;
@@ -69,6 +84,7 @@
       display:flex;
       flex-direction:column;
       align-items:center;
+      justify-content:center;
         }
 
     .cover__title{
@@ -76,6 +92,7 @@
       height:76px;
       font-size:72px;
       line-height:76px;
+      margin-left:390px;
     }
 
     .cover__subtitle{
@@ -83,16 +100,23 @@
       height:66px;
       font-size:18px;
       line-height:22px;
+      margin-right:345px;
     }
 
     .cover__button{
       width:198px;
       height:48px;
+      margin-left:126px;
     }
 
     .cover__button-link{
       font-size:18px;
       line-height:22px;
+    }
+
+    .cover__background-image{
+      width:768px;
+      height:746px;
     }
   }
 
@@ -130,12 +154,17 @@
       width:198px;
       height:48px;
       margin-top:16px;
-      margin-right:16px;
+      margin-right:130px;
       margin-bottom:auto;
     }
 
     .cover__button-link{
       font-size:18px;
       line-height:22px;
+    }
+
+    .cover__background-image{
+      width:322px;
+      height:254px;
     }
   }
