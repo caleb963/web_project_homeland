@@ -91,7 +91,7 @@ letter-spacing: 12%;
 
 
 .places__kiev-button{
-  height:Hug(48px);
+  height:hug(48px);
   border-radius:4px;
   background-color:#0278FE;
   grid-area:kiev-button;
@@ -201,7 +201,7 @@ letter-spacing: 12%;
 }
 
 .places__criccieth-button{
-  height:Hug(48px);
+  height:hug(48px);
   border-radius:4px;
   background-color:#0278FE;
   grid-area:criccieth-button;
@@ -325,7 +325,7 @@ letter-spacing: 12%;
   display:inline-block;
   vertical-align:middle;
   padding:13px 20px;
-  width:420px
+  width:420px;
 }
 
 .places__berea-button:hover{
@@ -433,8 +433,7 @@ letter-spacing: 12%;
 }
 
 .places__muramvya-button{
-  width:Hug(325px);
-  height:Hug(48px);
+  height:hug(48px);
   border-radius:4px;
   background-color:#0278FE;
   grid-area:muramvya-button;
@@ -545,8 +544,7 @@ letter-spacing: 12%;
 }
 
 .places__tijuana-button{
-  width:Hug(355px);
-  height:Hug(48px);
+  height:hug(48px);
   border-radius:4px;
   background-color:#0278FE;
   grid-area:tijuana-button;
