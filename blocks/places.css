@@ -91,7 +91,6 @@ letter-spacing: 12%;
 
 
 .places__kiev-button{
-  width:Hug(355px);
   height:Hug(48px);
   border-radius:4px;
   background-color:#0278FE;
@@ -202,7 +201,6 @@ letter-spacing: 12%;
 }
 
 .places__criccieth-button{
-  width:Hug(355px);
   height:Hug(48px);
   border-radius:4px;
   background-color:#0278FE;
@@ -313,8 +311,7 @@ letter-spacing: 12%;
 }
 
 .places__berea-button{
-  width:Hug(355px);
-  height:Hug(48px);
+  height:hug(48px);
   border-radius:4px;
   background-color:#0278FE;
   grid-area:berea-button;

@@ -38,8 +38,8 @@
   }
 
   .cover__button{
-    width:Hug(198px);
-    height:Hug(48px);
+    width:hug(198px);
+    height:hug(48px);
     padding:13px 20px;
     margin-top:45px;
     margin-right:75px;
