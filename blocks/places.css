@@ -94,11 +94,6 @@ letter-spacing: 12%;
   width:355px;
   height:48px;
   background-color:#0278FE;
-  color:#FFFFFF;
-  font-family: 'Inter';
-  font-weight:600;
-  font-size:18px;
-  line-height:22px;
   grid-area:kiev-button;
   margin-top:48px;
   border-radius:4px;
@@ -106,6 +101,15 @@ letter-spacing: 12%;
 
 .places__kiev-button:hover{
   background-color:#0256cc;
+}
+
+.places__kiev-button-link{
+  color:#FFFFFF;
+  font-family: 'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:22px;
+  text-decoration:none;
 }
 
 .places__criccieth{
@@ -199,11 +203,6 @@ letter-spacing: 12%;
   height:48px;
   margin-top:48px;
   background-color:#0278FE;
-  color:#FFFFFF;
-  font-family:'Inter';
-  font-weight:600;
-  font-size:18px;
-  line-height:21.78px;
   border-radius:4px;
   grid-area:criccieth-button;
 }
@@ -212,6 +211,14 @@ letter-spacing: 12%;
   background-color:#0256cc;
 }
 
+.places__criccieth-button-link{
+  color:#FFFFFF;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  text-decoration:none;
+}
 .places__berea{
   width:984px;
   height:725px;
@@ -303,16 +310,20 @@ letter-spacing: 12%;
   height:48px;
   border-radius:4px;
   background-color:#0278FE;
-  color:#FFFFFF;
-  font-family:'Inter';
-  font-weight:600;
-  font-size:18px;
-  line-height:21.78px;
   grid-area:berea-button;
 }
 
 .places__berea-button:hover{
   background-color:#0256cc;
+}
+
+.places__berea-button-link{
+  color:#FFFFFF;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  text-decoration:none;
 }
 
 .places__muramvya{
@@ -418,17 +429,21 @@ letter-spacing: 12%;
   height:48px;
   border-radius:4px;
   background-color:#0278FE;
-  color:#FFFFFF;
-  font-family:'Inter';
-  font-weight:600;
-  font-size:18px;
-  line-height:21.78px;
   grid-area:muramvya-button;
   margin-top:96px;
 }
 
 .places__muramvya-button:hover{
   background-color:#0256cc;
+}
+
+.places__muramvya-button-link{
+  color:#FFFFFF;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  text-decoration:none;
 }
 
 .places__tijuana{
@@ -522,17 +537,21 @@ letter-spacing: 12%;
   height:48px;
   border-radius:4px;
   background-color:#0278FE;
-  color:#FFFFFF;
-  font-family:'Inter';
-  font-weight:600;
-  font-size:18px;
-  line-height:21.78px;
   grid-area:tijuana-button;
   margin-top:120px;
 }
 
 .places__tijuana-button:hover{
   background-color:#0256cc;
+}
+
+.places__tijuana-button-link{
+  color:#FFFFFF;
+  font-family:'Inter';
+  font-weight:600;
+  font-size:18px;
+  line-height:21.78px;
+  text-decoration:none;
 }
 
 @media(max-width:768px){
@@ -594,9 +613,12 @@ letter-spacing: 12%;
   .places__kiev-button{
     width:340px;
     height:48px;
+    margin-top:-100px;
+  }
+
+  .places__kiev-button-link{
     font-size:18px;
     line-height:22px;
-    margin-top:-100px;
   }
 
   .places__criccieth{
@@ -648,9 +670,12 @@ letter-spacing: 12%;
   .places__criccieth-button{
     width:340px;
     height:48px;
+    margin-top:-100px;
+  }
+
+  .places__criccieth-button-{
     font-size:18px;
     line-height:22px;
-    margin-top:-100px;
   }
 
   .places__berea{
@@ -702,9 +727,12 @@ letter-spacing: 12%;
   .places__berea-button{
     width:340px;
     height:48px;
+    margin-top:-100px;
+  }
+
+  .places__berea-button-link{
     font-size:18px;
     line-height:22px;
-    margin-top:-100px;
   }
 
   .places__muramvya{
@@ -763,9 +791,12 @@ letter-spacing: 12%;
   .places__muramvya-button{
     width:340px;
     height:48px;
+    margin-top:-50px;
+  }
+
+  .places__muramvya-button-link{
     font-size:18px;
     line-height:22px;
-    margin-top:-50px;
   }
 
   .places__tijuana{
@@ -819,12 +850,14 @@ letter-spacing: 12%;
   .places__tijuana-button{
     width:340px;
     height:48px;
-    font-size:18px;
-    line-height:22px;
     margin-top:100px;
   }
-}
 
+  .places__tijuana-button-link{
+    font-size:18px;
+    line-height:22px;
+  }
+}
 
 
 
@@ -902,9 +935,12 @@ letter-spacing: 12%;
   .places__kiev-button{
     width:288px;
     height:45px;
+    margin-top:auto;
+  }
+
+  .places__kiev-button-link{
     font-size:14px;
     line-height:17px;
-    margin-top:auto;
   }
 
   .places__criccieth{
@@ -972,9 +1008,12 @@ letter-spacing: 12%;
   .places__criccieth-button{
     width:288px;
     height:45px;
+    margin-top:-20px;
+  }
+
+  .places__criccieth-button-link{
     font-size:14px;
     line-height:17px;
-    margin-top:-20px;
   }
 
   .places__berea{
@@ -1042,9 +1081,13 @@ letter-spacing: 12%;
   .places__berea-button{
     width:288px;
     height:45px;
+
+    margin-top:20px;
+  }
+
+  .places__berea-button-link{
     font-size:14px;
     line-height:17px;
-    margin-top:20px;
   }
 
   .places__muramvya{
@@ -1120,10 +1163,13 @@ letter-spacing: 12%;
   .places__muramvya-button{
     width:288px;
     height:45px;
-    font-size:14px;
-    line-height:17px;
     margin-top:20px;
     margin-bottom:80px;
+  }
+
+  .places__muramvya-button-link{
+    font-size:14px;
+    line-height:17px;
   }
 
   .places__tijuana{
@@ -1190,9 +1236,12 @@ letter-spacing: 12%;
   .places__tijuana-button{
     width:288px;
     height:45px;
+    margin-top:20px;
+  }
+
+  .places__tijuana-button-link{
     font-size:14px;
     line-height:17px;
-    margin-top:20px;
   }
 }
 
