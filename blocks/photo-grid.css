@@ -28,12 +28,12 @@
 
 @media(max-width: 768px){
   .photo-grid{
-    width:600px;
-    height:850px;
-    margin-left:85px;
+    width:720px;
+    height:1104px;
     grid-template-columns:repeat(2,1fr);
     grid-template-rows:repeat(4,1fr);
     grid-gap:10px;
+    margin-left:55px;
   }
 
   .photo-grid__list{
@@ -47,7 +47,7 @@
   }
 
   .photo-grid__list-item{
-    width:400px;
+    width:352px;
     height:264px;
   }
 }
