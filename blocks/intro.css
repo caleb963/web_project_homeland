@@ -2,8 +2,7 @@
   display:flex;
   flex-direction:column;
   align-items:center;
-  width:1017px;
-  height:516px;
+  height:auto;
   margin-top:92px;
   margin-left:148px;
   margin-right: 115px;
@@ -60,10 +59,12 @@
 }
 
 
-@media (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1279px){
   .intro{
     width:720px;
-    height:607px;
+    height:740px;
+    margin-left:280px;
+    margin-right:280px;
   }
 
   .intro__title{
@@ -71,7 +72,7 @@
     height:232px;
     font-size:54px;
     line-height:58px;
-    margin-right:380px;
+    margin-right:410px;
   }
 
   .intro__blockquote{
@@ -90,7 +91,7 @@
   }
   }
 
-@media(max-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 767px){
   .intro__title{
     width:288px;
     height:175px;

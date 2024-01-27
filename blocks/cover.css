@@ -73,24 +73,24 @@
     opacity:0.3;
   }
 
-  @media (max-width: 768px){
+  @media screen and (min-width: 768px) and (max-width: 1279px){
     .cover{
       width:768px;
       height:740px;
-      margin-top:2200px;
+      margin-top:2600px;
       margin-left:auto;
       display:flex;
       flex-direction:column;
       align-items:center;
       justify-content:center;
-        }
+    }
 
     .cover__title{
       width:656px;
       height:76px;
       font-size:72px;
       line-height:76px;
-      margin-left:390px;
+      margin-left:250\px;
     }
 
     .cover__subtitle{
@@ -98,7 +98,7 @@
       height:66px;
       font-size:18px;
       line-height:22px;
-      margin-right:345px;
+      margin-left:410px;
     }
 
     .cover__button{
@@ -107,15 +107,17 @@
       margin-left:126px;
       font-size:18px;
       line-height:22px;
+      margin-right:240px;
     }
 
     .cover__background-image{
       width:768px;
       height:746px;
+      margin-right:110px;
     }
   }
 
-  @media(max-width: 320px){
+  @media screen and (min-width: 320px) and (max-width: 767px){
     .cover{
       width:320px;
       height:254px;
