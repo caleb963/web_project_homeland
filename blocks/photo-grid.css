@@ -1,4 +1,5 @@
 .photo-grid{
+  max-width:1280px;
   display:grid;
   width:1184px;
   height:44px;
@@ -25,7 +26,7 @@
     grid-template-columns:repeat(2,1fr);
     grid-template-rows:repeat(4,1fr);
     grid-gap:10px;
-    margin-left:160px;
+    margin-left:60px;
     list-style:none;
   }
 
@@ -35,10 +36,9 @@
   }
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 767px){
   .photo-grid{
-    margin-top:500px;
+    margin-top:25px;
     width:288px;
     height:1812px;
     grid-template-columns:repeat(1,1fr);
@@ -51,6 +51,9 @@
     height:216px;
   }
 }
+
+
+
 
 
 

@@ -580,7 +580,7 @@ letter-spacing: 12%;
     width:720px;
     height:1169px;
     margin-top:-350px;
-    margin-left:-113px;
+    margin-left:-220px;
   }
 
   .places__kiev{
@@ -975,7 +975,6 @@ letter-spacing: 12%;
     height:35px;
     font-size:32px;
     line-height:35px;
-    margin-top:50px;
   }
 
   .places__criccieth-artist{
@@ -1046,7 +1045,6 @@ letter-spacing: 12%;
     font-size:32px;
     line-height:35px;
     margin-bottom:40px;
-    margin-top:25px;
   }
 
   .places__berea-artist{
@@ -1117,7 +1115,6 @@ letter-spacing: 12%;
     height:70px;
     font-size:32px;
     line-height:35px;
-    margin-top:40px;
   }
 
   .places__muramvya-artist{
@@ -1168,7 +1165,6 @@ letter-spacing: 12%;
     width:240px;
     height:16px;
     margin-top:20px;
-    margin-bottom:80px;
     font-size:14px;
     line-height:17px;
   }
@@ -1240,6 +1236,7 @@ letter-spacing: 12%;
     margin-top:20px;
     font-size:14px;
     line-height:17px;
+    margin-bottom:600px;
   }
 }
 

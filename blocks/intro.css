@@ -72,7 +72,7 @@
     height:232px;
     font-size:54px;
     line-height:58px;
-    margin-right:410px;
+    margin-right:630px;
   }
 
   .intro__blockquote{
@@ -80,7 +80,7 @@
     height:136px;
     font-size:24px;
     line-height:34px;
-    align-items:center;
+    margin-right:650px;
   }
 
   .intro__paragraph{
@@ -88,6 +88,7 @@
     height:182px;
     font-size:16px;
     line-height:26px;
+    margin-right:650px;
   }
   }
 
@@ -98,7 +99,7 @@
     font-size:32px;
     line-height:35px;
     align-items:center;
-    margin-right:820px;
+    margin-left:110px;
     }
 
     .intro__blockquote{
@@ -107,8 +108,9 @@
       font-size:24px;
       line-height:30px;
       align-items:center;
-      margin-right:830px;
+      margin-right:180px;
     }
+
 
 
    .intro__paragraph{
@@ -117,8 +119,7 @@
     font-size:16px;
     line-height:26px;
     align-items:center;
-    margin-right:830px;
+    margin-right:180px;
    }
-
 }
 
