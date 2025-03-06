@@ -1,20 +1,15 @@
-# Tripleten Web Project Homeland
+# Tripleten Web Project Homeland  
 
-## Description
-This project is a page that show us the places thaat our colleagues live and interesting facts abot their cities.developed for different dispositives.
+## 📌 Description  
+This project is a **web page** that showcases the **places where our colleagues live** and interesting facts about their cities. It is designed to be **fully responsive**, ensuring a smooth experience across different devices.  
 
-## Installation
-To install this project follow these steps:
-1. Clone the repository: 'git clone https://github.com/caleb963/web_project_homeland.git'
+## 🛠 Technologies Used  
+- **HTML** – Structure and content of the webpage.  
+- **CSS** – Styling and responsive design.  
 
-## Usage
-After installation , you can use this example to inspire you to build other projects with this kind of design and to practice more the usage of figma.
+## 📂 Installation  
+To install this project, follow these steps:  
 
-## Contributing
-To contribute to this project you could just take your time to watch the code and if you want make a comment to improve it.
-
-## License
-This project is licensed under the Tipleten Software engineering bootcamp.
-
-
-
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/caleb963/web_project_homeland.git
